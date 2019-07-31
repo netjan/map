@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+weather:
+    resource: App\Controller\WeatherController
+    type: rest
